@@ -28,11 +28,11 @@ antd 一般还有主题配置，这里就不说了。
 
 react-router-dom 封装了一些 dom 简化了 react-router 的使用。
 
-demo中有 route 全部都在 `routes.js` 里创建，其他组件只需要使用Link跳转即可。
+demo中所有的 route 全部都在 `routes.js` 里创建，其他组件只需要使用Link跳转即可。
 
 ### 引入redux
 
-组件的动态渲染依靠组件自身的state以及组件之间的props传递，这导致动态渲染依赖的数据过于分散，难以管理。。
+在redux出现之前，组件的动态渲染依靠组件自身的state以及组件之间的props传递，这导致动态渲染依赖的数据过于分散，难以管理。
 
 redux可以提供一个公共store 以树形结构存储所有组件的数据，便于管理数据。
 
